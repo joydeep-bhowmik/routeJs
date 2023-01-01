@@ -63,7 +63,7 @@ router.get("/post/{id}/{slug}",function(param){
 ```javascript
 //for /search?q=something&catagory=something
 
-router.get("/route/search",function(param){
+router.get("/search",function(param){
 if(router.getQueryParams()){
 	const param=router.getQueryParams();
 	var q=param.q;
