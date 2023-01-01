@@ -26,11 +26,11 @@ Place this .htaccess and your index.html in the same directory.
 Now in your index.html file:
 ### Declare
 
-``````javascript
+```javascript
 const router=new route();
 ```
 ### Initialization
-``````javascript
+```javascript
 //Default for all links 
 router.init();
 //or
