@@ -155,21 +155,4 @@ route.prototype.view = function(view, values = {}) {
     return view;
 
 }
-//if route path is not mentioned
-route.prototype.onRouteNotAvail = function(callback) {
-    const routes = this.routes;
-    var i;
-    document.addEventListener("onurlchange", () => {
-        const results = [];
-        if (!routes.includes(location.pathname)) {
-            for (i = 0; i < routes.length; i++) {
-                results[0] = this.setparam(routes[i], location.pathname);
-                //return object
-            }
-            if (Object.keys(results[0]).length == 0) {
-                callback();
-            }
-        }
-    });
 
-}
