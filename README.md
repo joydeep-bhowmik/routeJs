@@ -1,5 +1,6 @@
 
 # RouteJs
+**Current Version: 1.0 **
 A simple Single Page Application(SPA) front-end/JavaScript  library .
 You just have to have basic understanding of JavaScript that's it.
 Free for **personal/commercial** use (MIT licence).
