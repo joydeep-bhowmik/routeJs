@@ -11,7 +11,7 @@ CDN
 ```html
 <script src="https://cdn.jsdelivr.net/gh/joydeep11/routeJs/main/js/route-1.0.js"></script>
 ```
-**or** you can find the main js file inside main/js folder.
+**or** you can find the main js file inside main/js folder.(Always choose the latest version)
 ## What's inside?
 A single class containing a router, and some other functions enough to build a SPA website. 
 ## Documentation
