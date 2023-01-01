@@ -62,7 +62,7 @@ router.get("/post/{id}/{slug}",function(param){
 	console.log(param)
 }
 ```
-### Querystring
+### Get querystring
 ```javascript
 //for /search?q=something&catagory=something
 
