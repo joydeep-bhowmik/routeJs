@@ -10,7 +10,7 @@ CDN
 ```
 **or** you can find the main js file inside main/js folder.
 ## What's inside?
-A single class containing a router, and some other function enough to build a SPA website. 
+A single class containing a router, and some other functions enough to build a SPA website. 
 ## Documentation
 ###.htaccess
 ```.htaccess
