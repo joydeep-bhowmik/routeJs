@@ -92,6 +92,17 @@ var wlc=router.view(welcome(),{
 ```html
 <h1>Hello Joydeep</h1>
 ```
+### Bind events on dynamically generated html
+
+```javascript
+router.live(selector, evt, callback);
+```
+#### Example
+```javascript
+live(".btn","click",function(){
+	alert("clicked");
+});
+```
 
 
 
