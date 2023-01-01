@@ -75,6 +75,23 @@ if(router.getQueryParams()){
 }
 })
 ```
+### View 
+```javascript
+router.view(html,parameters={});
+```
+#### Example
+```javascript
+function welcome(){
+	return(`<h1>Hello {{username}}</h1>`);
+}
+var wlc=router.view(welcome(),{
+	username: "Joydeep"
+});
+```
+**will return :**
+```html
+<h1>Hello Joydeep</h1>
+```
 
 
 
