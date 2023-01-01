@@ -26,7 +26,7 @@ RewriteRule ^ - [L]
 # Rewrite everything else to index.html 
 RewriteRule ^ index.html [L]
 ```
-Place this .htaccess and your index.html in the same directory.
+Place this in your.htaccess and keep index.html and .htaccess in the same directory.
 Now in your index.html file:
 ### Declare
 
