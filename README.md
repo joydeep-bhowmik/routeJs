@@ -100,7 +100,7 @@ router.live(selector, evt, callback);
 ```
 #### Example
 ```javascript
-live(".btn","click",function(){
+router.live(".btn","click",function(){
 	alert("clicked");
 });
 ```
