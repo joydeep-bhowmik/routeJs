@@ -62,7 +62,7 @@ router.get("/post/{id}/{slug}",function(param){
 	var id=param.id;
 	var slug=param.slug;
 	console.log(param)
-}
+});
 ```
 ### Get querystring
 ```javascript
@@ -75,7 +75,7 @@ if(router.getQueryParams()){
 	var catagory=param.catagory;
 	console.log(param)
 }
-})
+});
 ```
 ### View 
 ```javascript
