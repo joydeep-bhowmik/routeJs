@@ -53,7 +53,8 @@ onDOMLoaded:false
 ```javascript
 router.get("/home",function(){
 	//do staffs
-})
+});
+
 ```
 ### Dynamic url
 ```javascript
